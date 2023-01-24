@@ -8,7 +8,7 @@ def index():
     #掲示板データを開く
     try:
         #テキストファイルを開く
-        with open('var/python-app/data.txt') as f:
+        with open('/var/python-app/data.txt') as f:
             #読み込み
             lines = f.read()
     #ファイルがなかったら変数を空にする
